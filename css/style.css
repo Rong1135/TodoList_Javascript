@@ -1,0 +1,157 @@
+/* html 中所有標籤 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 50px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.todo_input_block {
+    width: 60%;
+    padding: 10px;
+}
+
+.btn-new {
+    margin-left: 15px;
+}
+
+.todo_list_block {
+    width: 60%;
+    padding: 10px;
+}
+
+.todo_list {
+    list-style-type: none;
+}
+
+
+.todo {
+    padding: 5px;
+}
+
+.todo label {
+    width: 80%;
+}
+
+.todo .todo_input {
+    margin-right: 5px;
+}
+
+.btn-del {
+    width: 20%;
+    float: right;
+}
+/*
+.todo_input_wrap {
+    display: flex;
+    justify-content: center;
+    margin: 0px 100px;
+    padding: 5px;
+    width: 80%;
+} */
+
+/* .todo_input-block {
+    margin: 10px;
+    padding: 10px;
+} */
+
+/* .todo_input {
+    width: 300px;
+    height: 25px;
+    border-radius: 30px;
+    border: 1px solid black;
+    padding: 5px;
+} */
+
+/* .btn-new {
+    position: relative;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 30px;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding: 10px;
+    width: 80px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+} */
+
+/* .btn-new:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+} */
+
+/* .btn-new:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+.todo_list_block {
+    width: 60%;
+    padding: 20px;
+}
+
+.todo_list {
+    list-style: none;
+}
+
+.todo_list li {
+    display: flex;
+    justify-content: space-between;
+}
+
+label {
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+label input {
+    margin-right: 10px;
+}
+
+.btn-del {
+    background-color: white; /* Green */
+    /* border: 2px solid #4CAF50;
+    border-radius: 30px;
+    color: #4CAF50;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+} */ 
+
+/* .btn-del:hover {
+    background-color: #4CAF50;
+    color: white;
+} */

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/style.css">
+        
+    </head>
+
+    <body>
+        <header>
+            <h1>Todo List</h1>
+        </header>
+        <main>
+            <!-- 輸入框 -->
+            <section class="todo_input_block">
+                <input id="myInput" class="todo_input" type="text" placeholder="請輸入待辦事項">
+                <button class="btn-new" onclick="createHandler()">新增</button>
+            </section>
+            
+            <!-- todo_list 位置 -->
+            <section class="todo_list_block">
+                <ul id="list" class="todo_list"></ul>
+            </section>
+        </main>
+        <script src="js/toDoList.js"></script>
+    </body>
+</html>
